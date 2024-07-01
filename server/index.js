@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "netflix-peach-eight.vercel.app",
   credentials: true,
 };
 
